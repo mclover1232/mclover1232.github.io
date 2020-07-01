@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-    <title>LACS SHOP!</title>
+    <title>乐FUN!</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
     <script src="js/index.js"></script>
@@ -15,9 +15,6 @@
         <h3 class="load_subtitle">教寓于乐的学习平台！</h3>
     </hgroup>
 </div>
-<header>
-<h4>乐FUN!</h4>
-</header>
 <main>
     <h4>我的课程</h4>
     <div class="lesson myles">
@@ -51,14 +48,40 @@
     </div>
 </main>
 <footer>
-    <div class="navs">
+    <div id="ggmain" onclick="tomain()" ifon="true" class="navs">
         <img src="./image/nav1.png" alt="" class="navimg">
         <div class="navs_name">学习模块</div>
     </div>
-    <div class="navs">
+    <div id="ggfight" onclick="tofight()" ifon="false" class="navs">
         <img src="./image/nav2.png" alt="" class="navimg">
         <div class="navs_name">在线竞技</div>
     </div>
 </footer>
+<div isActived="false" class="list_bt">
+    <div class="l_item"></div>
+    <div class="l_item"></div>
+    <div class="l_item"></div>
+</div>
+<div isActived="false" class="extra_list">
+    <div class="nick_head"></div>
+    <p class="nick_name">测试账号</p>
+    <ul class="list_info">
+        <li>乐币：200 <a href="">充值</a></li>
+        <li>LV：6</li>
+        <li>装备称号：学海无涯</li>
+    </ul>
+    <div class="div_hr">
+        <div class="div_line"></div>
+    </div>
+    <ul class="list_article">
+        <li>我的物品</li>
+        <li>我的范力值：125</li>
+        <li>学习记录</li>
+        <li>报名课程设计师</li>
+        <li>第三方工具</li>
+        <li>联系客服</li>
+        <li>帮助反馈</li>
+    </ul>
+</div>
 </body>
 </html>

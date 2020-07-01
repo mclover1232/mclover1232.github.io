@@ -3,6 +3,16 @@ body {
     margin: 0;
     padding: 0;
     font-size:15pt;
+    color:#fff;
+}
+.bg{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -10;
+    background-image: url("../image/mbg.jpg");
 }
 h1{
     font-size: 1.5em;
@@ -14,7 +24,7 @@ h3{
     display: block;
     width:90vw;
     height:auto;
-    background-color: #3498db;
+    background-color:rgba(9, 132, 227,0.5);
     color:#fff;
     border-radius: 5px;
     font-size: 1.2em;
@@ -25,5 +35,5 @@ h3{
 }
 .homework_in:active{
     background-color:#fff;
-    color:#3498db;
+    color: #3498db;
 }
