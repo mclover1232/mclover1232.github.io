@@ -197,7 +197,7 @@ footer {
 .list_bt {
     position: fixed;
     top: 50px;
-    left: 50px;
+    left: 10px;
     width: 50px;
     height: 50px;
     background-color: var(--main);
@@ -207,7 +207,7 @@ footer {
 }
 
 .list_bt[isActived=true] {
-    left: 350px;
+    left: 250px;
 }
 
 .list_bt .l_item {
@@ -227,13 +227,13 @@ footer {
 .extra_list {
     color: var(--light);
     background-color: var(--main);
-    width: 300px;
+    width: 200px;
     height: 100vh;
     position: fixed;
     top: 0;
     left: -300px;
     transition: all .2s ease-in-out;
-    font-size: 18pt;
+    font-size: 15pt;
     overflow-y: auto;
     overflow-x: hidden;
 }
